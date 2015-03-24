@@ -78,4 +78,50 @@ footer{
 	padding: 150px 0 30px 0;
 }
 
+/* RESPONSIVE STYLING */
+@media (max-width: 1199px){
+	.jumbotron h1{
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 991px){
+	.jumbotron h1{
+		font-size: 44px;
+	}
+
+	.jumbotron p{
+		padding: 0 10px;
+	}
+
+	#get-involved .col-md-4{
+		padding-top:20px;
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width: 767px){
+	.jumbotron h1{
+		font-size: 24px;
+	}
+
+	.jumbotron p{
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.jumbotron .btn-lg{
+		font-size: 18px;
+	}
+
+	.homepage p{
+		font-size: 16px;
+	}
+
+	footer img{
+		width: 80%;
+	}
+}
+
 
