@@ -12,6 +12,10 @@ ul.nav{
 	font-size: 13px;
 }
 
+#get-involved{
+	background-color: #f5f5f5;
+}
+
 .jumbotron{
 
 	text-align: center;
@@ -35,6 +39,8 @@ ul.nav{
 
 .homepage{
 	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 .homepage h2, .homepage h3{
@@ -52,6 +58,12 @@ ul.nav{
 	font-size: 18px;
 }
 
+.homepage a:hover{
+	color: #e74c3c;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
 .homepage a{
 	color: #e74c3c;
 }
@@ -61,3 +73,5 @@ ul.nav{
 	width: 160px;
 	margin-top: 15px;
 }
+
+
